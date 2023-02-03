@@ -1,6 +1,6 @@
 # NKBB
 
-NKBB is a model for the thermal spectrum of thin accretion disks in parametric black hole spacetimes. It employs the Novikov-Thorne model for the description of the accretion disk and the transfer function approach proposed by Cunningham for storing all the relativistic effects of the spacetime metric. Please follow the instructions below carefully in order to ensure a properly working version of the model. This model is designed and tested to work within the X-ray spectral fitting software XSPEC. 1.6.3 is the current version of the model.    
+NKBB is a model for the thermal spectrum of thin accretion disks in parametric black hole spacetimes. It employs the Novikov-Thorne model for the description of the accretion disk and the transfer function approach proposed by Cunningham for storing all the relativistic effects of the spacetime metric. Please follow the instructions below carefully in order to ensure a properly working version of the model. This model is designed and tested to work within the X-ray spectral fitting software XSPEC.   
     
 If you are using the NKBB model in your work please cite the following:    
 * Zhou et al., _XSPEC model for testing the Kerr black hole hypothesis using the continuum-fitting method_, [Phys. Rev. D 99, 104031](https://doi.org/10.1103/PhysRevD.99.104031)
