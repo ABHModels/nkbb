@@ -10,11 +10,10 @@ If you are using the NKBB model in your work please cite the following papers:
 
 1. Installing the model:    
     * First, open the file "nkbb.h". You need to change the variable 
-    "TR_TABLE_PATH" (line 22) to your current working directory
-    * Change the permissions   
+    "TR_TABLE_PATH" (line 22) to your current working directory.
+    * To create the model, there is the script compile_NKBB.sh. The command lines are
+         
             chmod u+r compile_NKBB.sh
-    * Execute the script
-            ./compile_NKBB.sh
       
             ./compile_NKBB.sh
 
