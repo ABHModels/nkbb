@@ -2,7 +2,7 @@
 
 NKBB is a model for the thermal spectrum of thin accretion disks in parametric black hole spacetimes. It employs the Novikov-Thorne model for the description of the accretion disk and the transfer function approach proposed by Cunningham for storing all the relativistic effects of the spacetime metric. Please follow the instructions below carefully in order to ensure a properly working version of the model. This model is designed and tested to work within the X-ray spectral fitting software XSPEC.   
     
-If you are using the NKBB model in your work please cite the following:    
+If you are using the NKBB model in your work please cite the following papers:    
 * Zhou et al., _XSPEC model for testing the Kerr black hole hypothesis using the continuum-fitting method_, [Phys. Rev. D 99, 104031 (2019)](https://doi.org/10.1103/PhysRevD.99.104031)
 * Zhou et al., _Thermal spectra of thin accretion discs of finite thickness around Kerr black holes_, [MNRAS 496, 497–503 (2020)](https://doi.org/10.1093/mnras/staa1591)
 
@@ -11,9 +11,8 @@ If you are using the NKBB model in your work please cite the following:
 1. Installing the model:    
     * First in line 22 of file "nkbb.h", you need to change the variable 
     "TR_TABLE_PATH" to your current working directory
-    * All to execute the compile script by    
+    * To create the model, the command lines are    
             chmod u+r compile_NKBB.sh
-    * Execute    
             ./compile_NKBB.sh
     
 2. Loading the model in XSPEC:
@@ -39,6 +38,8 @@ If you are using the NKBB model in your work please cite the following:
 ## Usage instructions
 
 To ensure the optimal performance of the model, specific FITS files are mandatory. These files encompass the transfer functions and disk temperature profile of a specific non-Kerr metric and/or accretion disk geometry, which can currently be obtained upon request. A download link will be made available in the future.
+
+The eta parameter regulates the location of the inner edge of the accretion disk and its value cannot be negative. It is defined by the relation $R_{\rm in} = \left( 1 + {\tt eta} \right) R_{\rm ISCO}$, where $R_{\rm in}$ is the radial coordinate of the inner edge of the accretion disk and $R_{\rm ISCO}$ is the radial coordinate of the ISCO.
 
 The def_par_type parameter determines the accretion disk geometry and spacetime metric. It is crucial that this parameter remains fixed during data analysis. The following table outlines the def_par_type values and the corresponding model configurations:
 
