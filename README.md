@@ -18,11 +18,13 @@ If you are using the NKBB model in your work please cite the following papers:
 
 2. Loading the model in XSPEC:
     * From the directory where the model has been installed, the model can
-    simply be loaded inside XSPEC by executing:    
+    simply be loaded inside XSPEC by executing:
+  
              lmod nkbb .
 
 3. Calling the model in XSPEC:
-    * Execute following in XSPEC to call this model:    
+    * Execute following in XSPEC to call this model:
+     
             model nkbb
     * Please note that NKBB is a model of thermal component spectrum, so the
     norm should be fixed to 1.
