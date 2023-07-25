@@ -13,6 +13,7 @@ If you are using the NKBB model in your work please cite the following papers:
     "TR_TABLE_PATH" to your current working directory
     * To create the model, the command lines are    
             chmod u+r compile_NKBB.sh
+      
             ./compile_NKBB.sh
     
 2. Loading the model in XSPEC:
