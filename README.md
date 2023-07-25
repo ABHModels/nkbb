@@ -13,7 +13,7 @@ If you are using the NKBB model in your work please cite the following papers:
     "TR_TABLE_PATH" to your current working directory
     * To create the model, the command lines are   
             chmod u+r compile_NKBB.sh
-      and
+      *
             ./compile_NKBB.sh
     
 2. Loading the model in XSPEC:
@@ -40,7 +40,7 @@ If you are using the NKBB model in your work please cite the following papers:
 
 To ensure the optimal performance of the model, specific FITS files are mandatory. These files encompass the transfer functions and disk temperature profile of a specific non-Kerr metric and/or accretion disk geometry, which can currently be obtained upon request. A download link will be made available in the future.
 
-The eta parameter regulates the location of the inner edge of the accretion disk and its value cannot be negative. It is defined by the relation $R_{\rm in} = \left( 1 + {\tt eta} \right) R_{\rm ISCO}$, where $R_{\rm in}$ is the radial coordinate of the inner edge of the accretion disk and $R_{\rm ISCO}$ is the radial coordinate of the ISCO.
+The eta parameter regulates the location of the inner edge of the accretion disk and its value cannot be negative. It is defined by the relation $R_{\rm in} = \left( 1 + {\rm eta} \right) R_{\rm ISCO}$, where $R_{\rm in}$ is the radial coordinate of the inner edge of the accretion disk and $R_{\rm ISCO}$ is the radial coordinate of the ISCO.
 
 The def_par_type parameter determines the accretion disk geometry and spacetime metric. It is crucial that this parameter remains fixed during data analysis. The following table outlines the def_par_type values and the corresponding model configurations:
 
