@@ -14,7 +14,6 @@ If you are using the NKBB model in your work please cite the following papers:
     * To create the model, there is the script compile_NKBB.sh. The command lines are
          
             chmod u+r compile_NKBB.sh
-      
             ./compile_NKBB.sh
 
 2. Loading the model in XSPEC:
