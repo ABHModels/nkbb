@@ -12,8 +12,7 @@ If you are using the NKBB model in your work please cite the following papers:
     * First in line 22 of file "nkbb.h", you need to change the variable 
     "TR_TABLE_PATH" to your current working directory
     * To create the model, the command lines are    
-            chmod u+r compile_NKBB.sh
-      
+            chmod u+r compile_NKBB.sh 
             ./compile_NKBB.sh
     
 2. Loading the model in XSPEC:
