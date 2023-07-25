@@ -9,11 +9,13 @@ If you are using the NKBB model in your work please cite the following papers:
 ## Getting started
 
 1. Installing the model:    
-    * First in line 22 of file "nkbb.h", you need to change the variable 
-    "TR_TABLE_PATH" to your current working directory
+    * First, open the file "nkbb.h". You need to change the variable 
+    "TR_TABLE_PATH" (line 22) to your current working directory
     * Change the permissions   
             chmod u+r compile_NKBB.sh
     * Execute the script
+            ./compile_NKBB.sh
+      
             ./compile_NKBB.sh
 
 2. Loading the model in XSPEC:
