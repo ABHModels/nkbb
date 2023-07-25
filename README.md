@@ -15,7 +15,7 @@ If you are using the NKBB model in your work please cite the following papers:
             chmod u+r compile_NKBB.sh
     * Execute the script
             ./compile_NKBB.sh
-    
+
 2. Loading the model in XSPEC:
     * From the directory where the model has been installed, the model can
     simply be loaded inside XSPEC by executing:    
