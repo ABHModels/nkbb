@@ -40,7 +40,7 @@ If you are using the NKBB model in your work please cite the following papers:
 
 ## Usage instructions
 
-To ensure the optimal performance of the model, specific FITS files are mandatory. These files encompass the transfer functions and disk temperature profile of a specific non-Kerr metric and/or accretion disk geometry, which can currently be obtained upon request. FITS file are available here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14958255.svg)](https://doi.org/10.5281/zenodo.14958255)
+To ensure the optimal performance of the model, specific FITS files are mandatory. These files encompass the transfer functions and disk temperature profile of a specific non-Kerr metric and/or accretion disk geometry. FITS file are available here: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14958255.svg)](https://doi.org/10.5281/zenodo.14958255)
 
 The eta parameter regulates the location of the inner edge of the accretion disk and its value cannot be negative. It is defined by the relation $R_{\rm in} = \left( 1 + {\rm eta} \right) R_{\rm ISCO}$, where $R_{\rm in}$ is the radial coordinate of the inner edge of the accretion disk and $R_{\rm ISCO}$ is the radial coordinate of the ISCO.
 
